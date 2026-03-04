@@ -1,0 +1,64 @@
+/* kontejner nebude širší jak 1200px, bude vycentrovaný */
+body > .container {
+}
+
+/* obrázky jsou responzivní */
+.img-responsive {
+}
+
+/* panely date a article jsou vedle sebe */
+
+.news-item {
+}
+
+/* datum je vystředěno ve čtverci o hraně 116px, mezi měsícem a dnem je "--color-bg-pink" linka, pod dnem je "--category-accent" linka */
+.news-item__date {
+}
+
+.news-item__date-part--month {
+}
+
+.news-item__date-part--day {
+}
+
+/* mezi datumem a boxem je modrá tečka (8px) s bílým okrajem (3px) */
+.news-item::before {
+} 
+/* všechny boxy s perexem článku jsou stejně široké */
+/* nemělo by se stát, že červená šipka v bílém kroužku překryje text perexu */ 
+.news-item__article {
+}
+
+.news-item__image-link {
+}
+
+.news-item__content {
+}
+
+/* všechny odkazy vizuálně reagují na přejetí myší */
+.news-item__title-link:hover {
+}
+
+.news-item__category-link:hover {
+}
+
+.news-item__more-link:hover::after {
+}
+
+
+/* text "více" je prťavý tak, až není viditelný a odkaz "->" po najetí myší se změní barva borderu */
+
+.news-item__more-link {
+}
+
+
+/* barvy kategorií reagují na modifikátory */
+
+.news-item--school {
+}
+
+.news-item--engineering {
+}
+
+.news-item--success {
+}
